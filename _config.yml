@@ -1,14 +1,26 @@
-layout_spectrum: 0.1523435
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 typography_spectrum: 0.4621598
 color:
   saturation: 0.6370446
-  lightness: 0.6771865
   brandStrength: 0.874552
+  rhythmicContrast: 0.8316504
   brandColors:
     - '#FEFEFE'
     - '#030203'
     - '#800D02'
     - '#79631E'
     - '#D8CFAB'
-  rhythmicContrast: 0.8316504
+  lightness: 0.6771865
+layout_spectrum: 0
 name: 'Plumbing Tiling Contractors Limited '
